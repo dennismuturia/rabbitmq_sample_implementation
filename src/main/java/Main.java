@@ -3,7 +3,7 @@ import com.rabbitmq.client.Connection;
 import com.rabbitmq.client.ConnectionFactory;
 
 public class Main {
-    //Sret the queue name that we will be sending the messages
+    //Start the queue name that we will be sending the messages
     private final static String QUEUE_NAME = "testing";
     public  static void main(String[] args) throws Exception{
         ConnectionFactory factory = new ConnectionFactory();
