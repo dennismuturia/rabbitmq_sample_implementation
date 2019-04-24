@@ -16,6 +16,13 @@ public class Main {
             channel.basicPublish("", QUEUE_NAME, null, message.getBytes());
 
             System.out.println("[x] Sent'" + message +"'");
+
+
+
+
+            //Set to receive
+            Receiving receiving = new Receiving();
+            receiving.receiver();
         }
     }
 }
